@@ -46,7 +46,6 @@ scanjscss() {
 ## Start into subdirectory example ./tmp/br-convert.sh
 cd ..
 
-## Exit if runned another copy
 [ $# -eq 0 ] && path=`pwd` || path=$@
 
 dir=`basename $path`
