@@ -1,7 +1,7 @@
 #/bin/bash
 
 # Compress all js and css files in subdirectories, to ~brotli/ directory
-# apt install webp
+# yum install brotli.x86_64
 # Usage ./br-convert.sh
 
 br() {
